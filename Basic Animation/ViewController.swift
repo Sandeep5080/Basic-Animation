@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let myview = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
+    let myview = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 210))
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     @objc func animate() {
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: 5, animations: {
             
             self.myview.frame = CGRect(x: 0, y:0, width: 400, height: 400)
             self.myview.center = self.view.center
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         })
     }
     func shrink() {
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: 2, animations: {
             self.myview.frame = CGRect(x: 0, y:0, width: 200, height: 200)
             self.myview.center = self.view.center
         }, completion: { done in
