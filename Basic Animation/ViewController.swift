@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         myview.center = view.center
         view.addSubview(myview)
     
-    let mybutton = UIButton(frame: CGRect(x: (view.frame.size.width-200)/2, y: view.frame.size.height - 220, width: 200, height: 60))
+    let mybutton = UIButton(frame: CGRect(x: (view.frame.size.width-210)/2, y: view.frame.size.height - 220, width: 200, height: 50))
      mybutton.backgroundColor = .systemGreen
         
         mybutton.setTitleColor(.white, for: .normal)

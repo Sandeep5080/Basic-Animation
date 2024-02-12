@@ -22,6 +22,10 @@
                                 <color key="textColor" systemColor="tintColor"/>
                                 <color key="highlightedColor" red="0.33725491169999999" green="0.3686274886" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fnc-MZ-0C1">
+                                <rect key="frame" x="151" y="182" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
