@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        myview.backgroundColor = .cyan
+        myview.backgroundColor = .green
         myview.center = view.center
         view.addSubview(myview)
     
