@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         myview.center = view.center
         view.addSubview(myview)
     
-    let mybutton = UIButton(frame: CGRect(x: (view.frame.size.width-210)/2, y: view.frame.size.height - 220, width: 200, height: 50))
+    let mybutton = UIButton(frame: CGRect(x: (view.frame.size.width-210)/2, y: view.frame.size.height - 220, width: 200, height: 55))
      mybutton.backgroundColor = .systemGreen
         
         mybutton.setTitleColor(.white, for: .normal)
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     @objc func animate() {
         UIView.animate(withDuration: 5, animations: {
             
-            self.myview.frame = CGRect(x: 0, y:0, width: 400, height: 400)
+            self.myview.frame = CGRect(x: 0, y:0, width: 400, height: 410)
             self.myview.center = self.view.center
         }, completion: { done in
             if done {
